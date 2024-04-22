@@ -1,0 +1,119 @@
+ul {
+    display: block;
+    list-style-type: none;
+    unicode-bidi: isolate;
+    padding: 0px;
+    margin: 0px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tr>td#first {
+    width: 37%;
+    background-color: #7EE5DA;
+}
+
+tr>td#second {
+    width: 22%;
+    background-color: #70CCC2;
+}
+
+tr>td#third {
+    background-color: #62B3AA;
+}
+
+ul>li {
+    list-style-type: none;
+    text-align: center;
+}
+
+li>p {
+    margin: 0px;
+}
+
+center {
+    display: block;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000EE;
+}
+
+.section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    max-width: 1024px;
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+
+.main {
+    background-color: #EAEAEA;
+    margin: 0px 2px 0px 2px;
+}
+
+.search-input {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 0em;
+    padding-block: 2px;
+    padding-inline: 72px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-width: 1px;
+    border-style: inset;
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+.google-btn {
+    padding-block: 2px;
+    border-width: 1px;
+    border-width: 1px;
+    display: inline;
+}
+
+.lucky-btn {
+    padding-block: 2px;
+    border-width: 1px;
+    border-width: 1px;
+    display: inline;
+}
+
+.table-view {
+    display: table;
+    width: 100%;
+    text-align: start;
+    border-collapse: separate;
+    box-sizing: border-box;
+
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    border-spacing: 2px;
+    white-space: normal;
+    font-variant: normal;
+}
